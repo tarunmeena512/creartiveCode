@@ -1,0 +1,193 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+.bgimg {
+	background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+
+	background-size: 100% 100%;
+	background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    opacity: #2B83E7;
+
+   
+}
+
+#particles-js { 
+	/*background-image: url(14.jpg);*/
+    /*background-size: 100%  100% ;*/
+    background-attachment:fixed;
+    width: 100%;
+    height:  500px;
+    position: fixed;  
+}
+
+
+#typed
+{ 
+	color: white;
+	line-height: 60vh;
+	font-size: 3.8em;
+	text-transform: uppercase;
+}
+
+#typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 20s infinite;
+	-moz-animation:blink 20s infinite;
+	animation:blink 20s infinite;
+}
+/*Removes cursor which comes with typed.js*/
+.Typed-cursor {
+	opacity: 0;
+	display: none;
+}
+/*custom cursor animation css*/
+@keyframes blink{
+	0% {opacity: 1; }
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes blink {
+	0% {opacity: 1; }
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes blink {
+	0% {opacity: 1; }
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+#brand-image {
+	height: 50px;
+	width: auto;
+	
+
+
+}
+a:hover {
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  
+  transition-delay: 0.1s;
+  fade:0.5s;
+  transition: 0.5s;
+}
+
+
+
+/*............................Our Service................................*/
+
+
+.ourservices{
+	padding:100px 0px 60px;
+	height: auto;
+
+}
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+
+.rowsetting{
+	margin: 80px 0px !important ;
+}
+
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width:  100px;
+	background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+.fa-shopify {
+	margin-top: 25px;
+}
+.fa-arrow-up{
+	margin-top: 25px;
+}
+.fa-palette{
+	margin-top: 25px;
+}
+
+.fa-shopping-cart{
+	margin-top: 25px;
+}
+
+.fa-users { 
+	margin-top: 25px;
+}
+
+.fa-cogs{
+	margin-top: 25px;
+}
+
+.rowsetting p{
+	padding: 10px;
+	color: #777777;
+}
+
+.rowsetting h2 {
+	margin-top: 20px;
+	font-size: 35px;
+	font-weight: bold;
+}   
+
+/*...........................................*/
+
+.page-footer{
+
+	
+}
+
+/*................................About us page...........................................*/
+
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+.bg-light {
+	
+background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+ }
+
+ .lead {
+ 	font-size: 1.5rem
+ 	text-transform: uppercase;
+ 	font-weight: 400;
+	color: #ffffff !important;
+	margin-bottom: 30px;
+ }
+
+ .display-4 {
+ 	margin-bottom: 40px;
+ 	font-weight: 400;
+ 	color: #ffffff;
+ }
+
+ /*.........................Web Services.......................................*/
+
+ 
